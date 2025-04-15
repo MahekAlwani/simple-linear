@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-st.title("Salary Prediction")
+st.title("Mahek")
 
 with open("model.pkl") as file:
     model = pickle.load(file)

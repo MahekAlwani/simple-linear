@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-st.title("Mahek")
+st.title("Mahek Predictor")
 
 with open("model.pkl") as file:
     model = pickle.load(file)
